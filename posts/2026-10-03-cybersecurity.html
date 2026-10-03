@@ -34,20 +34,11 @@ body { background:#050315; color:#fbfbfe; font-family:'Inter',sans-serif; max-wi
 
 <div class="item">
   <div class="item-header">
-    <h2>XALGORIX3-DOTCOM/XALGORIX</h2>
-  </div>
-  
-  <p>The platform bundles over 70 tools and runs headless, cutting typical 5‑day assessments to under 12 hours.</p>
-  <div class="rtags"><span class="rtag">FREE</span><span class="rtag">OPEN SOURCE</span><span class="rtag">SELF-HOSTED</span></div>
-  <a href="https://github.com/xalgorix3-dotcom/xalgorix" target="_blank">↗ https://github.com/xalgorix3-dotcom/xalgorix</a>
-</div>
-<div class="item">
-  <div class="item-header">
     <h2>BUG-BOUNTY-HUNTING-PROMPTS</h2>
   </div>
   
-  <p>Includes 120+ ready‑made ChatGPT prompts, each mapping to a CVE template, boosting report speed by 40%.</p>
-  <div class="rtags"><span class="rtag">FREE</span><span class="rtag">COMMUNITY</span><span class="rtag">MARKDOWN</span></div>
+  <p>Run structured prompts that isolate auth bypasses and injection points across targets. Formats evidence steps directly for HackerOne triage.</p>
+  <div class="rtags"><span class="rtag">PENTEST</span><span class="rtag">PROMPTS</span><span class="rtag">TRIAGE</span></div>
   <a href="https://github.com/mdpsec/bug-bounty-hunting-prompts" target="_blank">↗ https://github.com/mdpsec/bug-bounty-hunting-prompts</a>
 </div>
 <div class="item">
@@ -55,8 +46,8 @@ body { background:#050315; color:#fbfbfe; font-family:'Inter',sans-serif; max-wi
     <h2>ACTION-DIST-VERIFY</h2>
   </div>
   
-  <p>The CLI hashes the dist folder and compares it against the upstream repo, catching 97% of supply‑chain tampering.</p>
-  <div class="rtags"><span class="rtag">FREE</span><span class="rtag">NPM</span><span class="rtag">CLI</span></div>
+  <p>Compiles TypeScript actions from source and flags mismatches against committed dist folders. Stops modified pre-built release payloads before CI executes.</p>
+  <div class="rtags"><span class="rtag">CI-CD</span><span class="rtag">SUPPLY-CHAIN</span><span class="rtag">INTEGRITY</span></div>
   <a href="https://github.com/kofiadeyemiq/action-dist-verify" target="_blank">↗ https://github.com/kofiadeyemiq/action-dist-verify</a>
 </div>
 <div class="item">
@@ -64,8 +55,8 @@ body { background:#050315; color:#fbfbfe; font-family:'Inter',sans-serif; max-wi
     <h2>WITNESS-VAULT</h2>
   </div>
   
-  <p>Generates a single HTML file with AES‑256‑GCM, no installer, and can be opened in any browser offline.</p>
-  <div class="rtags"><span class="rtag">FREE</span><span class="rtag">PYTHON</span><span class="rtag">WEB</span></div>
+  <p>Generates standalone single-file HTML vaults protected by client-side AES-256-GCM encryption. Operates in offline air-gapped browsers without external servers or runtimes.</p>
+  <div class="rtags"><span class="rtag">ENCRYPTION</span><span class="rtag">OFFLINE</span><span class="rtag">AES-256</span></div>
   <a href="https://github.com/Hamidooh/witness-vault" target="_blank">↗ https://github.com/Hamidooh/witness-vault</a>
 </div>
 <div class="item">
@@ -73,8 +64,8 @@ body { background:#050315; color:#fbfbfe; font-family:'Inter',sans-serif; max-wi
     <h2>THE-BLACKHAT-ROADMAP</h2>
   </div>
   
-  <p>Spanning 44,982 lines, it charts 150+ diagrams from OPSEC to EDR evasion, updated monthly for emerging threats.</p>
-  <div class="rtags"><span class="rtag">FREE</span><span class="rtag">MARKDOWN</span><span class="rtag">DIAGRAMS</span></div>
+  <p>Follow 150 visual architectural diagrams tracing offensive paths from OPSEC to EDR evasion. Covers Active Directory inspection and binary analysis progression.</p>
+  <div class="rtags"><span class="rtag">ROADMAP</span><span class="rtag">ACTIVE-DIR</span><span class="rtag">RECON</span></div>
   <a href="https://github.com/SagarBiswas-MultiHAT/The-BlackHAT-roadmap" target="_blank">↗ https://github.com/SagarBiswas-MultiHAT/The-BlackHAT-roadmap</a>
 </div>
 <div class="item">
@@ -82,8 +73,8 @@ body { background:#050315; color:#fbfbfe; font-family:'Inter',sans-serif; max-wi
     <h2>DENO-LOCKFILE-DIFF</h2>
   </div>
   
-  <p>Transforms a deno.lock diff into a ranked list, flagging 12 new raw‑URL imports in the latest release.</p>
-  <div class="rtags"><span class="rtag">FREE</span><span class="rtag">CLI</span><span class="rtag">TS</span></div>
+  <p>Inspects deno.lock git diffs to detect new raw HTTP imports and altered package checksums. Surfaces dependency changes before merges reach production.</p>
+  <div class="rtags"><span class="rtag">DENO</span><span class="rtag">SUPPLY-CHAIN</span><span class="rtag">LINTER</span></div>
   <a href="https://github.com/agentscope-ai-java/deno-lockfile-diff" target="_blank">↗ https://github.com/agentscope-ai-java/deno-lockfile-diff</a>
 </div>
 <div class="item">
@@ -91,9 +82,18 @@ body { background:#050315; color:#fbfbfe; font-family:'Inter',sans-serif; max-wi
     <h2>DUCKDB-EXTENSION-AUDIT</h2>
   </div>
   
-  <p>Scans project dependencies, reports 23 unsigned extensions, and warns before runtime loading, preventing hidden exec.</p>
-  <div class="rtags"><span class="rtag">FREE</span><span class="rtag">PYTHON</span><span class="rtag">SECURITY</span></div>
+  <p>Scans DuckDB project environments to inventory binaries and detect unsigned extension binaries. Flags unsafe community mirrors before local analytical queries execute.</p>
+  <div class="rtags"><span class="rtag">DUCKDB</span><span class="rtag">AUDIT</span><span class="rtag">SIGNATURES</span></div>
   <a href="https://github.com/agentscope-ai-java/duckdb-extension-audit" target="_blank">↗ https://github.com/agentscope-ai-java/duckdb-extension-audit</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>IMPORTMAP-LINT</h2>
+  </div>
+  
+  <p>Checks browser import maps against W3C resolution algorithms and catches unpinned CDN URLs. Protects web frontends from remote script modification.</p>
+  <div class="rtags"><span class="rtag">IMPORTMAP</span><span class="rtag">W3C-SPEC</span><span class="rtag">ES-MODULES</span></div>
+  <a href="https://github.com/agentscope-ai-java/importmap-lint" target="_blank">↗ https://github.com/agentscope-ai-java/importmap-lint</a>
 </div>
 <div class="footer-note">Curated by @devvault.ai · Comment 'VAULT' on the post to get this link via DM</div>
 </body>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DEVVAULT · Cybersecurity · October 05, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#050315; color:#fbfbfe; font-family:'Inter',sans-serif; max-width:800px; margin:0 auto; padding:60px 40px; }
+.header { border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:32px; margin-bottom:48px; }
+.header h1 { font-family:'Space Grotesk',sans-serif; font-size:48px; font-weight:700; letter-spacing:-1.5px; text-transform:uppercase; margin-bottom:12px; }
+.header p { color:rgba(222,220,255,0.5); font-size:15px; letter-spacing:0.12em; text-transform:uppercase; }
+.item { border:1px solid rgba(255,255,255,0.07); border-radius:16px; padding:36px; margin-bottom:24px; background:rgba(67,59,255,0.04); }
+.item-header { display:flex; align-items:center; gap:16px; margin-bottom:16px; }
+.item-emoji { font-size:36px; }
+.item-header h2 { font-family:'Space Grotesk',sans-serif; font-size:32px; font-weight:700; text-transform:uppercase; letter-spacing:-0.5px; }
+.item-meta { font-size:14px; color:rgba(222,220,255,0.5); letter-spacing:0.06em; margin-bottom:16px; }
+.item p { font-size:18px; line-height:1.6; color:rgba(222,220,255,0.65); margin-bottom:20px; }
+.rtags { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:20px; }
+.rtag { border:1px solid rgba(255,255,255,0.10); color:rgba(222,220,255,0.4); font-size:11px; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; padding:5px 14px; border-radius:100px; }
+.item a { color:#dedcff; font-size:15px; font-weight:600; text-decoration:none; letter-spacing:0.04em; word-break:break-all; }
+.item a:hover { color:#fbfbfe; }
+.footer-note { margin-top:48px; padding-top:32px; border-top:1px solid rgba(255,255,255,0.06); color:rgba(222,220,255,0.3); font-size:13px; letter-spacing:0.08em; text-align:center; }
+</style>
+</head>
+<body>
+<a class="back" href="../index.html">&larr; All resources</a>
+<div class="header">
+  <h1>DEVVAULT</h1>
+  <p>Cybersecurity · October 05, 2026 · 7 tools</p>
+</div>
+
+<div class="item">
+  <div class="item-header">
+    <h2>HEADERSCRUB</h2>
+  </div>
+  
+  <p>Go's default http.Client forwards custom headers like X-Api-Key to external domains during redirects. This package drops them automatically when origins change.</p>
+  <div class="rtags"><span class="rtag">GO</span><span class="rtag">SECURITY</span><span class="rtag">OPEN SOURCE</span></div>
+  <a href="https://github.com/kofiadeyemiq/headerscrub" target="_blank">↗ https://github.com/kofiadeyemiq/headerscrub</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>ORIGIN-SCOPED-FETCH</h2>
+  </div>
+  
+  <p>Standard fetch implementations leak authorization headers when a request redirects to a third-party domain. This TypeScript wrapper isolates credentials to your target origin.</p>
+  <div class="rtags"><span class="rtag">TYPESCRIPT</span><span class="rtag">API SECURITY</span><span class="rtag">WEB</span></div>
+  <a href="https://github.com/kofiadeyemiq/origin-scoped-fetch" target="_blank">↗ https://github.com/kofiadeyemiq/origin-scoped-fetch</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>SNITCH</h2>
+  </div>
+  
+  <p>Most background processes quietly phone home without your consent. This Python tool visualizes your computer's network traffic in real-time with zero external logging.</p>
+  <div class="rtags"><span class="rtag">PYTHON</span><span class="rtag">PRIVACY</span><span class="rtag">NETWORK</span></div>
+  <a href="https://github.com/aixisstudio/Snitch" target="_blank">↗ https://github.com/aixisstudio/Snitch</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>VD-GOOGLE</h2>
+  </div>
+  
+  <p>Access RCS messages, Google Wallet passes, and Play Integrity attestations directly on-device. Requires root access and runs entirely offline without internet dependencies.</p>
+  <div class="rtags"><span class="rtag">ANDROID</span><span class="rtag">ROOT</span><span class="rtag">LOCAL-ONLY</span></div>
+  <a href="https://github.com/VD171/VD-Google" target="_blank">↗ https://github.com/VD171/VD-Google</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>HETZNER-CLOUD-AUDIT-SKILLS</h2>
+  </div>
+  
+  <p>Hetzner Cloud setups often suffer from silent configuration drift. This Python tool generates evidence-backed attack paths and cost audits to secure your cloud footprint.</p>
+  <div class="rtags"><span class="rtag">CLOUD SECURITY</span><span class="rtag">PYTHON</span><span class="rtag">AUDIT</span></div>
+  <a href="https://github.com/jpolec/hetzner-cloud-audit-skills" target="_blank">↗ https://github.com/jpolec/hetzner-cloud-audit-skills</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>JAILBREAK-ARCHIVES</h2>
+  </div>
+  
+  <p>AI guardrails frequently fail against clever prompt engineering. Use this structured, versioned repository of adversarial techniques to stress-test and harden your LLM integrations.</p>
+  <div class="rtags"><span class="rtag">AI SAFETY</span><span class="rtag">RED TEAMING</span><span class="rtag">LLM</span></div>
+  <a href="https://github.com/e2sy/jailbreak-archives" target="_blank">↗ https://github.com/e2sy/jailbreak-archives</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>ONEHUMAN</h2>
+  </div>
+  
+  <p>AI agents often overreach and expose sensitive user information. This TypeScript SDK hides private data, requests confirmation for risky actions, and signs decisions server-side.</p>
+  <div class="rtags"><span class="rtag">TYPESCRIPT</span><span class="rtag">AI AGENTS</span><span class="rtag">SECURITY</span></div>
+  <a href="https://github.com/OneHumanAI/onehuman" target="_blank">↗ https://github.com/OneHumanAI/onehuman</a>
+</div>
+<div class="footer-note">Curated by @devvault.ai · Comment 'VAULT' on the post to get this link via DM</div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DEVVAULT · Vibecoding · October 11, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#050315; color:#fbfbfe; font-family:'Inter',sans-serif; max-width:800px; margin:0 auto; padding:60px 40px; }
+.header { border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:32px; margin-bottom:48px; }
+.header h1 { font-family:'Space Grotesk',sans-serif; font-size:48px; font-weight:700; letter-spacing:-1.5px; text-transform:uppercase; margin-bottom:12px; }
+.header p { color:rgba(222,220,255,0.5); font-size:15px; letter-spacing:0.12em; text-transform:uppercase; }
+.item { border:1px solid rgba(255,255,255,0.07); border-radius:16px; padding:36px; margin-bottom:24px; background:rgba(67,59,255,0.04); }
+.item-header { display:flex; align-items:center; gap:16px; margin-bottom:16px; }
+.item-emoji { font-size:36px; }
+.item-header h2 { font-family:'Space Grotesk',sans-serif; font-size:32px; font-weight:700; text-transform:uppercase; letter-spacing:-0.5px; }
+.item-meta { font-size:14px; color:rgba(222,220,255,0.5); letter-spacing:0.06em; margin-bottom:16px; }
+.item p { font-size:18px; line-height:1.6; color:rgba(222,220,255,0.65); margin-bottom:20px; }
+.rtags { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:20px; }
+.rtag { border:1px solid rgba(255,255,255,0.10); color:rgba(222,220,255,0.4); font-size:11px; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; padding:5px 14px; border-radius:100px; }
+.item a { color:#dedcff; font-size:15px; font-weight:600; text-decoration:none; letter-spacing:0.04em; word-break:break-all; }
+.item a:hover { color:#fbfbfe; }
+.footer-note { margin-top:48px; padding-top:32px; border-top:1px solid rgba(255,255,255,0.06); color:rgba(222,220,255,0.3); font-size:13px; letter-spacing:0.08em; text-align:center; }
+</style>
+</head>
+<body>
+<a class="back" href="../index.html">&larr; All resources</a>
+<div class="header">
+  <h1>DEVVAULT</h1>
+  <p>Vibecoding · October 11, 2026 · 7 tools</p>
+</div>
+
+<div class="item">
+  <div class="item-header">
+    <h2>SOUNDSWITCH</h2>
+  </div>
+  
+  <p>Locks per-application audio outputs across system reboots. Built with HTML wrappers to eliminate manual Windows sound mixer adjustments.</p>
+  <div class="rtags"><span class="rtag">AUDIO</span><span class="rtag">OPEN SOURCE</span><span class="rtag">WINDOWS</span></div>
+  <a href="https://github.com/GulfHairdresser/SoundSwitch" target="_blank">↗ https://github.com/GulfHairdresser/SoundSwitch</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>DOTPALS</h2>
+  </div>
+  
+  <p>Monitors Claude Code and Cursor CLI executions in real time. Flags mock test passes and sends the agent back to fix broken code.</p>
+  <div class="rtags"><span class="rtag">DEVTOOLS</span><span class="rtag">AGENT AUDIT</span><span class="rtag">CLI</span></div>
+  <a href="https://github.com/Rikinshah787/dotpals" target="_blank">↗ https://github.com/Rikinshah787/dotpals</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>QQ-LIVE-DIGEST</h2>
+  </div>
+  
+  <p>Runs NapCat OneBot v11 to filter group chatter with AI. Syncs action items directly to a mobile task board.</p>
+  <div class="rtags"><span class="rtag">PYTHON</span><span class="rtag">PWA</span><span class="rtag">AUTOMATION</span></div>
+  <a href="https://github.com/wc985732-lang/qq-live-digest" target="_blank">↗ https://github.com/wc985732-lang/qq-live-digest</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>HIDE</h2>
+  </div>
+  
+  <p>A focused IDE built by Edward Kmett for sub-second Haskell compilation. Replaces heavy editor extensions with instant type checking.</p>
+  <div class="rtags"><span class="rtag">HASKELL</span><span class="rtag">IDE</span><span class="rtag">DEVTOOLS</span></div>
+  <a href="https://github.com/ekmett/hide" target="_blank">↗ https://github.com/ekmett/hide</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>TOKENHARBOR-BULK-CREATOR</h2>
+  </div>
+  
+  <p>Provisions Token Harbor accounts using disposable temp-email.dev inboxes. Generates ready-to-use API keys end-to-end with zero manual input.</p>
+  <div class="rtags"><span class="rtag">PLAYWRIGHT</span><span class="rtag">AUTOMATION</span><span class="rtag">API</span></div>
+  <a href="https://github.com/0xgetz/tokenharbor-bulk-creator" target="_blank">↗ https://github.com/0xgetz/tokenharbor-bulk-creator</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>1MIN-AI-DOWNLOAD</h2>
+  </div>
+  
+  <p>Wraps 1min.AI multi-model capabilities into an automated desktop runner. Aggregates GPT-4o, Claude 3.5, and Midjourney without context switching.</p>
+  <div class="rtags"><span class="rtag">PYTHON</span><span class="rtag">MULTI-MODEL</span><span class="rtag">CLIENT</span></div>
+  <a href="https://github.com/BoatswainValve94/1min-ai-download" target="_blank">↗ https://github.com/BoatswainValve94/1min-ai-download</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>ZCODE-CLAIM-9ROUTER</h2>
+  </div>
+  
+  <p>Reverse-engineered from ZCode 3.14.4 to trade session cookies for JWTs automatically. Pools GLM endpoints directly into 9Router with a web console.</p>
+  <div class="rtags"><span class="rtag">PYTHON</span><span class="rtag">ROUTING</span><span class="rtag">API POOL</span></div>
+  <a href="https://github.com/0xgetz/zcode-claim-9router" target="_blank">↗ https://github.com/0xgetz/zcode-claim-9router</a>
+</div>
+<div class="footer-note">Curated by @devvault.ai · Comment 'VAULT' on the post to get this link via DM</div>
+</body>
+</html>

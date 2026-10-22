@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DEVVAULT · Cybersecurity · October 22, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#050315; color:#fbfbfe; font-family:'Inter',sans-serif; max-width:800px; margin:0 auto; padding:60px 40px; }
+.header { border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:32px; margin-bottom:48px; }
+.header h1 { font-family:'Space Grotesk',sans-serif; font-size:48px; font-weight:700; letter-spacing:-1.5px; text-transform:uppercase; margin-bottom:12px; }
+.header p { color:rgba(222,220,255,0.5); font-size:15px; letter-spacing:0.12em; text-transform:uppercase; }
+.item { border:1px solid rgba(255,255,255,0.07); border-radius:16px; padding:36px; margin-bottom:24px; background:rgba(67,59,255,0.04); }
+.item-header { display:flex; align-items:center; gap:16px; margin-bottom:16px; }
+.item-emoji { font-size:36px; }
+.item-header h2 { font-family:'Space Grotesk',sans-serif; font-size:32px; font-weight:700; text-transform:uppercase; letter-spacing:-0.5px; }
+.item-meta { font-size:14px; color:rgba(222,220,255,0.5); letter-spacing:0.06em; margin-bottom:16px; }
+.item p { font-size:18px; line-height:1.6; color:rgba(222,220,255,0.65); margin-bottom:20px; }
+.rtags { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:20px; }
+.rtag { border:1px solid rgba(255,255,255,0.10); color:rgba(222,220,255,0.4); font-size:11px; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; padding:5px 14px; border-radius:100px; }
+.item a { color:#dedcff; font-size:15px; font-weight:600; text-decoration:none; letter-spacing:0.04em; word-break:break-all; }
+.item a:hover { color:#fbfbfe; }
+.footer-note { margin-top:48px; padding-top:32px; border-top:1px solid rgba(255,255,255,0.06); color:rgba(222,220,255,0.3); font-size:13px; letter-spacing:0.08em; text-align:center; }
+</style>
+</head>
+<body>
+<a class="back" href="../index.html">&larr; All resources</a>
+<div class="header">
+  <h1>DEVVAULT</h1>
+  <p>Cybersecurity · October 22, 2026 · 7 tools</p>
+</div>
+
+<div class="item">
+  <div class="item-header">
+    <h2>YUNKUN-CONSOLE-PREVIEW</h2>
+  </div>
+  
+  <p>This project provides a detailed look at the YunKun automated penetration console. It documents optimization flows and UI layouts for large-scale security operations.</p>
+  <div class="rtags"><span class="rtag">GO</span><span class="rtag">UI</span><span class="rtag">AUTOMATION</span></div>
+  <a href="https://github.com/Haryy985/yunkun-console-preview" target="_blank">↗ https://github.com/Haryy985/yunkun-console-preview</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>PHP_UPLOADPROGRESS_GUARD</h2>
+  </div>
+  
+  <p>This C extension mirrors official fixes to protect unpatched PHP engines. It safeguards against CVE-2026-109618 by intercepting malicious file upload processes.</p>
+  <div class="rtags"><span class="rtag">C</span><span class="rtag">PHP</span><span class="rtag">PATCH</span></div>
+  <a href="https://github.com/HOSTED-POWER/php_uploadprogress_guard" target="_blank">↗ https://github.com/HOSTED-POWER/php_uploadprogress_guard</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>PHP2SHELL-SCANNER</h2>
+  </div>
+  
+  <p>A non-destructive scanner that integrates with crt.sh and subfinder. It effectively detects CVE-2026-109618/109619 using advanced banner grabbing techniques.</p>
+  <div class="rtags"><span class="rtag">PYTHON</span><span class="rtag">SCANNER</span><span class="rtag">RECON</span></div>
+  <a href="https://github.com/JoasASantos/php2shell-scanner" target="_blank">↗ https://github.com/JoasASantos/php2shell-scanner</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>PHP2SHELL-PATCHES</h2>
+  </div>
+  
+  <p>Emergency patch collection for PHP 5.6 through 8.1. It maintains core functionality like file uploads while closing the CVE-2026-109618 RCE gap.</p>
+  <div class="rtags"><span class="rtag">SHELL</span><span class="rtag">LEGACY</span><span class="rtag">SECURITY</span></div>
+  <a href="https://github.com/Anton-Barinov/php2shell-patches" target="_blank">↗ https://github.com/Anton-Barinov/php2shell-patches</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>BASTION</h2>
+  </div>
+  
+  <p>A Go-based assessment tool designed for intrusion tracing. It generates offline reports that map specific patch verification status across your infrastructure.</p>
+  <div class="rtags"><span class="rtag">GO</span><span class="rtag">REPORTING</span><span class="rtag">AUDIT</span></div>
+  <a href="https://github.com/BastionPHP/Bastion" target="_blank">↗ https://github.com/BastionPHP/Bastion</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>OPEN-SESAME</h2>
+  </div>
+  
+  <p>An AI skill for Claude Code that maps attack surfaces. It validates findings and writes professional reports for stakeholders after testing.</p>
+  <div class="rtags"><span class="rtag">AI</span><span class="rtag">OWASP</span><span class="rtag">WEB</span></div>
+  <a href="https://github.com/hassan-algo/open-sesame" target="_blank">↗ https://github.com/hassan-algo/open-sesame</a>
+</div>
+<div class="item">
+  <div class="item-header">
+    <h2>PHP2SHELLBT</h2>
+  </div>
+  
+  <p>A lightweight Python scanner that targets CVE-2026-109618 and 109619. It focuses on handler mismatches and LFI exploitation chains.</p>
+  <div class="rtags"><span class="rtag">PYTHON</span><span class="rtag">LFI</span><span class="rtag">EXPLOIT</span></div>
+  <a href="https://github.com/pentestershell/php2shellbt" target="_blank">↗ https://github.com/pentestershell/php2shellbt</a>
+</div>
+<div class="footer-note">Curated by @devvault.ai · Comment 'VAULT' on the post to get this link via DM</div>
+</body>
+</html>
